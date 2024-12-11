@@ -8,4 +8,4 @@ const router = Router()
 router.get('/',home.indexPage)
 router.get('/docs',home.docsPage)
 
-module.exports = router
+export default router
